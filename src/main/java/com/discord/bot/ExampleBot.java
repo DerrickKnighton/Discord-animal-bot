@@ -29,7 +29,8 @@ public final class ExampleBot {
 	  //private static RestTemplate restTemplate;
 
 	  public static void main(final String[] args) {
-	    final String token = "OTM5Nzg0NTUzMzc0MDQ0MTgw.Yf94kQ.xFZ3Z0B-3uJhAkXXb7RkfCje-yA";
+            // reset my bot token so dont you be sneaking looking at my commit history =)
+	    final String token = "";
 	    final DiscordClient client = DiscordClient.create(token);
 	    final GatewayDiscordClient gateway = client.login().block();
 	    gateway.on(MessageCreateEvent.class).subscribe(event -> {
